@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+}
+#mypg{
+     position: absolute;
+     left:35%;
+     top:25%;
+}
+.backgroundcontrol{
+    height: 200%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Images/Velammal-Institute-of-Technology-Thiruvallur.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+#heading{
+    display:grid;
+    grid-template-rows: 100px 80px 2px 40px 40px ;
+    grid-template-columns: auto; 
+    gap:0px;
+    place-items: center;
+    
+   
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    font-size: 30px;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    font-size: 15px;
+    
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.logoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clgname{
+    color: white;
+}
+h1{
+    font-size: 80px;
+}
+hr{
+    color:white;
+}
+.logo{
+    height:100px;
+}
+.custom-input{
+    height: 500px;
+
+}
+.btn{
+    width: 50px;
+}
+span{
+    color:white;
+}
+@media(max-width:500px){
+    #heading{
+        display:grid;
+        grid-template-rows: 50px 40px 1px 20px 20px ;
+        grid-template-columns: auto; 
+        gap:0px;
+        place-items: center;
+    }
+    h1{
+        font-size: 50px;;
+    }
+    h3{
+        font-size:20px;
+    }
+    .logo{
+        height:50px;
+    }
+
+}
